@@ -4,6 +4,7 @@ class TransactionType(Enum):
     MEAL = 1
     TRANSPORTATION = 2
     ENTERTAINMENT = 3
+<<<<<<< HEAD
     GROCERY = 4
 
 class UserInteraction(Enum):
@@ -35,3 +36,6 @@ date_options = {
 inputDateDialogue = "Please input a date (yyyy-mm-dd): "
 
 inputValueDialogue = "Please input a transaction value: "
+=======
+    GROCERY = 4
+>>>>>>> 2341e0de9b4531e31bf51dcc604d9dbbc8ec3c65
