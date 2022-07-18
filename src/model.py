@@ -4,7 +4,6 @@ from constants import TransactionType
 from typing import List, Optional
 
 class Transaction(BaseModel):
-    timestamp: int
     category: TransactionType
     value: float
 
